@@ -2,15 +2,16 @@
 
 https://user-images.githubusercontent.com/8475244/209210483-a748ddcd-708d-4b6b-8a07-3016f709b028.mp4
 
+# About
+- Seeded project with my [webpack boiler plate](https://github.com/andrewlor/webpack-react-app)
+- Tailwind CSS
+- Fetch API
+- Redux Toolkit
+- Jest
 
 # Setup
-
 ```
-npm i
-```
-
-```
-npm run dev
+npm i && npm run dev
 ```
 
 # Testing
