@@ -23,7 +23,7 @@ export const Signup = ({ goToLogin, signup }) => {
     }
 
     return (
-        <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-1/3">
+        <div className="bg-white shadow-md rounded p-8 mb-4 w-1/3">
             {inputs.map(({ label, key, type, isValid, validationMessage }) => (
                 <Input
                     key={key}
