@@ -1,6 +1,8 @@
 import EmailValidator from 'email-validator'
 
 export const APP_STATES = {
+    UNMOUNTED: 'UNMOUNTED',
+    MOUNTED: 'MOUNTED',
     LOGIN: 'LOGIN',
     SIGNUP: 'SIGNUP',
     PROFILE: 'PROFILE',

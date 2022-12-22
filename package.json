@@ -38,6 +38,7 @@
     "email-validator": "^2.0.4",
     "postcss-loader": "^7.0.2",
     "postcss-preset-env": "^7.8.3",
-    "react-redux": "^8.0.5"
+    "react-redux": "^8.0.5",
+    "react-top-loading-bar": "^2.3.1"
   }
 }

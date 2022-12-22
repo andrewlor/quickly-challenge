@@ -14,7 +14,11 @@ const Signup = ({ goToLogin, signup }) => {
     const onSignup = () => {
         setDidSubmit(true)
         if (areAllInputsValid(inputs, form)) {
-            signup(form)
+            signup({
+                ...form,
+                confirm_email: undefined,
+                confirm_password: undefined,
+            })
         }
     }
 
