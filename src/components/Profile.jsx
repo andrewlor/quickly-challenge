@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { LOGOUT } from '../redux'
 
-const Profile = ({ logout, user }) => {
+export const Profile = ({ logout, user }) => {
     return (
         <div className="bg-white shadow-md rounded p-8 mb-4 w-1/3">
             {user && (

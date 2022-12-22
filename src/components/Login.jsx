@@ -7,7 +7,7 @@ import { loginInputs as inputs } from '../const'
 import Input from './Input'
 import { areAllInputsValid } from '../util'
 
-const Login = ({ goToSignup, login }) => {
+export const Login = ({ goToSignup, login }) => {
     const [form, handleFormInput] = useForm(inputs.map(({ key }) => key))
     const [didSubmit, setDidSubmit] = useState(false)
 
